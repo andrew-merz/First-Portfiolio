@@ -10,31 +10,37 @@ function Projects() {
       <Card sx={{ maxWidth: 285 }}>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Project 1
+            Connect 4
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            A Modern twist on an old classic game. Connect 4 is a two player
+            game where players take turns dropping chips onto the board. The
+            chips fall straight down, occupying the lowest available space
+            within the column. The first player to connect 4 chips of the same
+            color wins!
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small">Share</Button>
-          <Button size="small">Learn More</Button>
+          <Button size="small">Repo</Button>
+          <Button size="small">Link</Button>
         </CardActions>
       </Card>
       <Card sx={{ maxWidth: 285 }}>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Project 2
+            Twitter-Clone
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            Twitter-Clone is a back-end based project aimed at
+            reverse-engineering the popular social media platform "Twitter" and
+            some of its features. Users can create a profile, log into that
+            profile and start using our platform! Users can also post tweets
+            that other site-members can view and interact with.
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small">Share</Button>
-          <Button size="small">Learn More</Button>
+          <Button size="small">Repo</Button>
+          <Button size="small">Link</Button>
         </CardActions>
       </Card>
     </div>
