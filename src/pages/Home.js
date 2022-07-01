@@ -1,9 +1,10 @@
 import { Typography } from "@mui/material";
 import Projects from "../components/Projects";
-
+import Nav from "../components/Nav";
 function Home() {
   return (
     <div className="App">
+      <Nav />
       <h1>Andrew Merz</h1>
       <h4>Portfolio</h4>
       <div className="summary">
